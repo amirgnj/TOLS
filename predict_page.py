@@ -111,7 +111,7 @@ def show_predict_page():
         sample.loc[:,:] = 0
     
 
-    st.error("###### ❗ Disclaimer: Please note that this tool does not reflect causal relationships between input variables and the outcome, and therefore it should not be used to dictate surgical planning.")
+    st.error("###### ❗ Disclaimer: Please note that this tool does not reflect causal relationships between input variables and the outcome, and therefore it should not be used in isolation to dictate surgical planning.")
 
 
 
