@@ -37,8 +37,8 @@ sample = data["sample"]
 def show_predict_page():
     st.title("Textbook Outcome in Liver Surgery")
 
-    st.info("###### 📚 This risk calculator was developed and validated using data from a multi-institutional cohort of 2,059 adult patients who underwent liver surgery between 2010 and 2022. (Model's AUC: 0.73)")
-    st.info("###### 💡 Tip: The continuous variables have set ranges determined by our dataset. Should there be a need to enter a value beyond these ranges, please use the maximum or minimum value available.")
+    st.info("###### 📚 This risk calculator was developed and validated using data from a multi-institutional cohort of 2,059 adult patients who underwent liver surgery between 2010 and 2022. (AUC: 0.73)")
+    st.info("###### 💡 Tip: The variables have set ranges determined by our dataset. Should there be a need to enter a value beyond these ranges, please use the maximum or minimum value available.")
 
 
     st.write("""### Please  provide the following information:""")
