@@ -61,8 +61,8 @@ def show_predict_page():
     Hemoglobin = cols2[0].number_input("Hemoglobin", 7, 18, 13)
     Platelets = cols2[1].number_input("Platelets", 40, 800, 200, 10)
     cols3 = st.columns(2)
-    Creatinine = cols3[0].number_input("Creatinine", 0.3, 9, 1, step=0.1)
-    Total_bili = cols3[1].number_input("Total bilirubin", 0.1, 15, 1, step=0.1)
+    Creatinine = cols3[0].number_input("Creatinine", 0.3, 9, 1, 0.1)
+    Total_bili = cols3[1].number_input("Total bilirubin", 0.1, 15, 1, 0.1)
 
     col4 = st.columns(2)
     Indication_ = col4[0].selectbox('Indication', ("Benign", "HCC", "CRLM", "CCC", "Other malignant"))
