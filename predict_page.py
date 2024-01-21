@@ -61,7 +61,7 @@ def show_predict_page():
     Hemoglobin = cols2[0].number_input("Hemoglobin", 7, 18, 13)
     Platelets = cols2[1].number_input("Platelets", 40, 800, 200, 10)
     cols3 = st.columns(2)
-    Creatinine = cols3[0].number_input("Creatinine", min_value=0.30, max_value=9.00, value=1.00, step=0.01)
+    Creatinine = cols3[0].number_input("Creatinine", min_value=0.30, max_value=9.00, value=1.00)
     Total_bili = cols3[1].number_input("Total bilirubin", 0.1, 15, 1)
 
     col4 = st.columns(2)
